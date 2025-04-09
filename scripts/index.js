@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.toggle("active");
   });
 
-  // === Modal Logic ===
+  // Modal Logic 
   const loginBtn = document.getElementById("login-btn");
   const signupBtn = document.getElementById("signup-btn");
   const loginModal = document.getElementById("login-modal");
