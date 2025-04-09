@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // === Burger Menu ===
+  // Burger Menu 
   const burger = document.getElementById("burger");
   const nav = document.getElementById("main-nav");
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // === Modal Handling ===
+  // Modal Handling 
   const loginBtn = document.getElementById("login-btn");
   const signupBtn = document.getElementById("signup-btn");
   const loginModal = document.getElementById("login-modal");
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === signupModal) hideModal(signupModal);
   });
 });
-// === Partner Slideshow ===
+// Partner Slideshow
 let slideIndex = 1;
 showSlides(slideIndex);
 
