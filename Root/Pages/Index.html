@@ -1,13 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link herf="css/style.css" rel="stylesheet">
-    <script src="scripts/javascript.js"></script>
-    <title>My First Page</title>
-  </head>
-  <body>
-    <h1>Home Page</h1>
-        <p>This is the HomePage</p>
-          <button onclick="sayHi()">Click Me</button>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Slovenské Vzdelávacie Centrum – South Manchester</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 🎥 Video Background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="video/background.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- 🔝 Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="site-logo">Thy Logo</div>
+      <nav class="nav" id="main-nav">
+        <a href="Home.html">Home</a>
+        <a href="About_Us.html">About Us</a>
+        <a href="Slovak_School.html">Slovak School</a>
+        <a href="Events_&_Projects.html">Events & Projects</a>
+        <a href="Library.html">Library</a>
+        <a href="Journal.html">Journal</a>
+        <a href="Journal.html">Donate</a>
+      </nav>
+      <div class="nav-right">
+        <div class="auth-buttons">
+          <button id="login-btn">Login</button>
+          <button id="signup-btn">Sign Up</button>
+        </div>
+        <div class="burger" id="burger">
+          <div></div><div></div><div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 🏡 Hero Section -->
+  <section class="hero">
+    <div class="hero-video-container">
+      <video autoplay muted loop playsinline>
+        <source src="video/background.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-text">
+        <h1>🏡 Welcome to Slovenské Vzdelávacie Centrum – South Manchester</h1>
+        <p>Preserving Slovak Language, Celebrating Culture, Building Community.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📚 Content Sections -->
+  <main>
+    <section id="about" class="section">
+      <div class="section-content">
+        <h2>Who We Are</h2>
+        <p>Slovenské Vzdelávacie Centrum – South Manchester is more than just a Saturday school—it’s a growing community of families, educators, and individuals dedicated to keeping the Slovak language and traditions alive.</p>
+        <h3>🌱 Our Mission</h3>
+        <ul>
+          <li>Teach Slovak through fun, structured classes</li>
+          <li>Celebrate our culture with hands-on events</li>
+          <li>Support bilingual families and children</li>
+          <li>Bridge UK and Slovak education systems</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="school" class="section">
+      <div class="section-content">
+        <h2>🏫 Slovak School</h2>
+        <p><strong>Saturday Language Lessons for Children & Adults</strong></p>
+        <ul>
+          <li>🕙 AM: 10:00–12:00 at The Firs Primary School</li>
+          <li>🕑 PM: 14:00–16:00 at Sale High School</li>
+          <li>✅ Modern, student-centred teaching</li>
+          <li>✅ Cultural learning woven into the curriculum</li>
+          <li>✅ SEN support and inclusive practices</li>
+          <li>✅ Pay-as-you-go or discounted term plans</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="section-content">
+        <h2>🎉 Events & Workshops</h2>
+        <p>We believe Slovak culture should be lived, not just learned!</p>
+        <ul>
+          <li>🐣 Easter Workshop – 6th April 2025</li>
+          <li>🪩 Kids Disco & Vysvedčenie – 12th July 2025</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="library" class="section">
+      <div class="section-content">
+        <h2>📚 Library (Coming Soon!)</h2>
+        <p>We’re creating a dedicated Slovak book collection and resource hub for our students and the wider community.</p>
+        <ul>
+          <li>📘 Slovak children’s books and novels</li>
+          <li>📖 Language-learning materials</li>
+          <li>🎨 Cultural literature and activity packs</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="journal" class="section">
+      <div class="section-content">
+        <h2>📝 Journal & Resources</h2>
+        <ul>
+          <li>🧠 SVCSM Work Book – “Pracovný zošit”</li>
+          <li>🗞 SVCSM Newsletter</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="support" class="section">
+      <div class="section-content">
+        <h2>❤️ Support Us</h2>
+        <ul>
+          <li>🤝 Volunteer your time or skills</li>
+          <li>🎯 Sponsor an event or project</li>
+          <li>💸 Make a donation to help us grow</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-content">
+        <h2>📩 Stay in Touch</h2>
+        <p>Email: <a href="mailto:svcmanchester@yahoo.com" class="highlight-link">svcmanchester@yahoo.com</a></p>
+        <p>📱 Follow Us: Facebook | Instagram</p>
+        <p>📍 Locations: The Firs Primary School | Sale High School</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🔐 Modals -->
+  <div class="modal" id="login-modal">
+    <div class="modal-box">
+      <span class="close" data-close="login-modal">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+        <p>Or login with:</p>
+        <button class="fb">Facebook</button>
+        <button class="google">Google</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="signup-modal">
+    <div class="modal-box">
+      <span class="close" data-close="signup-modal">&times;</span>
+      <h2>Sign Up</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Confirm Password" required />
+        <button type="submit">Sign Up</button>
+        <p>Or sign up with:</p>
+        <button class="fb">Facebook</button>
+        <button class="google">Google</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 📦 Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-box">
+      <h3><i class="fas fa-info-circle"></i> About Us</h3>
+      <p>"Together we change lives – every act of kindness counts."</p>
+      <p><i class="fas fa-envelope"></i> help@svcs.uk</p>
+      <p><i class="fas fa-phone-alt"></i> +421 XXX XXX XXX</p>
+      <p><i class="fas fa-map-marker-alt"></i> 123 Street, City, Slovakia</p>
+    </div>
+
+    <div class="footer-box">
+      <h3><i class="fas fa-hands-helping"></i> Support Us</h3>
+      <p><strong>BARCLAYS</strong></p>
+      <p>Sort Code: 30-94-66</p>
+      <p>Account No: 019152668</p>
+      <p>SVCSM – South Manchester</p>
+      <a href="#support">Donate</a> | <a href="#support">Volunteer</a>
+    </div>
+
+    <div class="footer-box">
+      <h3><i class="fas fa-link"></i> Useful Links</h3>
+      <ul>
+        <li><a href="#library">Library</a></li>
+        <li><a href="#journal">Newsletter</a></li>
+        <li><a href="#events">Events</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3><i class="fas fa-share-alt"></i> Stay Connected</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>Subscribe: <a href="#">Sign Up</a></p>
+    </div>
+  </div>
+
+  <!-- 📦 Partner Logos (now bottom full-width) -->
+  <div class="footer-partners">
+    <h3><i class="fas fa-ribbon"></i> Our Partners</h3>
+    <div class="partner-logos">
+      <img src="img/logo-umb.png" alt="UMB" />
+      <img src="img/logo-morrisons.png" alt="Morrisons" />
+      <img src="img/logo-cafe.png" alt="Porta134 Café" />
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Slovenské Vzdelávacie Centrum – South Manchester</p>
+  </div>
+</footer>
+
+  <script src="js/script.js" defer></script>
+</body>
 </html>
