@@ -56,23 +56,10 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.header-container {
-  display: flex;
-  align-items: center; 
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  flex-wrap: wrap;
-}
-.logo-img {
-  height: 50px;
-  width: auto;
-  max-width: 100%;
-  vertical-align: middle;
-}
-@media (max-width: 768px) {
-  .logo-img {
-    height: 40px;
-  }
+.site-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
 }
 
 /* Navigtion */
