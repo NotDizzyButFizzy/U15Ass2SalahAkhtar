@@ -57,21 +57,23 @@ body {
   flex-wrap: wrap;
   gap: 1rem;
 }
-.site-logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #fff;
-}
+/* === Logo Styling === */
 .site-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: 1rem;
+  max-height: 50px;
+  overflow: hidden;
 }
+
 .logo-img {
-  height: 35px;
+  height: 40px;
+  max-width: 120px;
   width: auto;
   object-fit: contain;
 }
+
 
 /* === Navigation === */
 .nav {
