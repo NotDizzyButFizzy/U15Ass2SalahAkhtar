@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 🔝 Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="site-logo">Thy Logo</div>
+      <nav class="nav" id="main-nav">
+        <a href="Home.html">Home</a>
+        <a href="About_Us.html">About Us</a>
+        <a href="Slovak_School.html">Slovak School</a>
+        <a href="Events_&_Projects.html">Events & Projects</a>
+        <a href="Library.html" class="active">Library</a>
+        <a href="Journal.html">Journal</a>
+        <a href="Donate.html">Donate</a>
+      </nav>
+      <div class="nav-right">
+        <div class="auth-buttons">
+          <button id="login-btn">Login</button>
+          <button id="signup-btn">Sign Up</button>
+        </div>
+        <div class="burger" id="burger">
+          <div></div><div></div><div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 🏫 Hero -->
+  <section class="hero about-hero">
+    <div class="hero-text">
+      <h1>Library</h1>
+      <p>Coming Soon – Your Hub for Slovak Books & Learning Resources</p>
+    </div>
+  </section>
+
+  <!-- 📚 Library Content -->
+  <main>
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-book-reader"></i> What We’re Working On</h2>
+        <p>We are currently developing:</p>
+        <ul>
+          <li>A collection of Slovak books for children, teens, and adults</li>
+          <li>Access to language-learning materials and cultural resources</li>
+          <li>A potential partnership with a local public library to create a dedicated Slovak book section open to the community</li>
+        </ul>
+        <p>This collaboration is still in the works—we’ll keep you updated as it progresses!</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-hands-helping"></i> How You Can Help</h2>
+        <h3>📚 Donate Books</h3>
+        <ul>
+          <li>Children’s books</li>
+          <li>Storybooks and novels</li>
+          <li>Textbooks and language resources</li>
+          <li>Educational or cultural materials</li>
+        </ul>
+
+        <h3>🏢 Partner with Us</h3>
+        <p>Are you an organisation, cultural group, or business that would like to collaborate or sponsor our library? We’d love to work with you.</p>
+
+        <h3>💸 Contribute Financially</h3>
+        <p>Donations help us:</p>
+        <ul>
+          <li>Purchase new Slovak books and resources</li>
+          <li>Maintain and organise the collection</li>
+          <li>Cover library and setup costs</li>
+        </ul>
+        <p>👉 <a href="Donate.html" class="highlight-link">Visit our Payments Page</a> to make a donation.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-envelope-open-text"></i> Get Involved</h2>
+        <p>Do you have ideas, book donations, or sponsorship enquiries?</p>
+        <p>📩 <a href="mailto:svcmanchester@yahoo.com" class="highlight-link">Contact Us</a> – we’d love to hear from you!</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-globe"></i> Useful Links & Resources</h2>
+
+        <h3>🎓 Slovak Language & Education</h3>
+        <ul>
+          <li>Wordwall Slovak Practice – Fun, interactive language games (link coming soon)</li>
+          <li>Ministry of Education of the Slovak Republic – Curriculum, policies & school info</li>
+          <li>Slovak Schools & Community Centres in the UK – Supporting Slovak education initiatives (insert link when available)</li>
+        </ul>
+
+        <h3>🎭 Slovak Culture & Community</h3>
+        <ul>
+          <li>Úrad pre Slovákov žijúcich v zahraničí – Slovak government office for diaspora support</li>
+          <li>ISEIA – Global network for Slovak educators & institutions (insert link)</li>
+          <li>Univerzita Mateja Bela – Our academic partner in cultural and language education</li>
+        </ul>
+
+        <h3>🛂 Legal & Family Support</h3>
+        <ul>
+          <li>Gov.uk – Moving between Slovakia and the UK: residency, visas, and more</li>
+          <li>Slovak Embassy in the UK – Passport renewals, legal advice, and consular services</li>
+          <li>Guidance for Families Moving Back to Slovakia – Helping children transition between school systems (insert link if available)</li>
+        </ul>
+
+        <h3>👥 Our Partners & Supporters</h3>
+        <ul>
+          <li>Manchester College – Supporting education projects and website development</li>
+          <li>Porta134 Café – Event space, refreshments, and children’s art displays (insert link)</li>
+        </ul>
+
+        <h3>🔗 Suggest a Link</h3>
+        <p>Know a great website, learning tool, or support network that could help others in our community?</p>
+        <p>💡 <a href="#" class="highlight-link">Suggest a Resource</a> – we’re always happy to expand our list!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🔐 Modals -->
+  <div class="modal" id="login-modal">
+    <div class="modal-box">
+      <span class="close" data-close="login-modal">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+        <p>Or login with:</p>
+        <button class="fb">Facebook</button>
+        <button class="google">Google</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="signup-modal">
+    <div class="modal-box">
+      <span class="close" data-close="signup-modal">&times;</span>
+      <h2>Sign Up</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Confirm Password" required />
+        <button type="submit">Sign Up</button>
+        <p>Or sign up with:</p>
+        <button class="fb">Facebook</button>
+        <button class="google">Google</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 📦 Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-box">
+        <h3><i class="fas fa-info-circle"></i> About Us</h3>
+        <p>"Together we change lives – every act of kindness counts."</p>
+        <p><i class="fas fa-envelope"></i> help@svcs.uk</p>
+        <p><i class="fas fa-phone-alt"></i> +421 XXX XXX XXX</p>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Street, City, Slovakia</p>
+      </div>
+
+      <div class="footer-box">
+        <h3><i class="fas fa-hands-helping"></i> Support Us</h3>
+        <p><strong>BARCLAYS</strong></p>
+        <p>Sort Code: 30-94-66</p>
+        <p>Account No: 019152668</p>
+        <p>SVCSM – South Manchester</p>
+        <a href="#support">Donate</a> | <a href="#support">Volunteer</a>
+      </div>
+
+      <div class="footer-box">
+        <h3><i class="fas fa-link"></i> Useful Links</h3>
+        <ul>
+          <li><a href="#library">Library</a></li>
+          <li><a href="#journal">Newsletter</a></li>
+          <li><a href="#events">Events</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h3><i class="fas fa-share-alt"></i> Stay Connected</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>Subscribe: <a href="#">Sign Up</a></p>
+      </div>
+    </div>
+
+    <div class="footer-partners">
+      <h3><i class="fas fa-ribbon"></i> Our Partners</h3>
+      <div class="partner-logos">
+        <img src="img/logo-umb.png" alt="UMB" />
+        <img src="img/logo-morrisons.png" alt="Morrisons" />
+        <img src="img/logo-cafe.png" alt="Porta134 Café" />
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Slovenské Vzdelávacie Centrum – South Manchester</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
