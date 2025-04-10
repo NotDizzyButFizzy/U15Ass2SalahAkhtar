@@ -1,4 +1,4 @@
-/* Base Reset */
+/* === Base Reset === */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   color: #fff;
 }
 
-/* Video Background */
+/* === Video Background ===  */
 .youtube-background {
   position: fixed;
   top: 0;
@@ -37,7 +37,7 @@ body {
   border: none;
 }
 
-/* Header */
+/* === Header === */
 .header {
   position: fixed;
   top: 0;
@@ -62,7 +62,7 @@ body {
   color: #fff;
 }
 
-/* Navigtion */
+/* === Navigation === */
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +89,7 @@ body {
   width: 100%;
 }
 
-/* Auth Buttons & Burger */
+/* === Auth Buttons & Burger === */
 .nav-right {
   display: flex;
   align-items: center;
@@ -115,7 +115,7 @@ body {
   background: white;
 }
 
-/* Hero Section */
+/* === Hero Section === */
 .hero {
   height: 100vh;
   display: flex;
@@ -129,7 +129,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Content Sections */
+/* === Content Sections === */
 .section {
   display: flex;
   justify-content: center;
@@ -170,7 +170,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Modals */
+/* === Modals === */
 .modal {
   display: none;
   position: fixed;
@@ -214,7 +214,7 @@ body {
   cursor: pointer;
 }
 
-/* Footer */
+/* === Footer === */
 .footer {
   background-color: #003366;
   color: #fff;
@@ -292,7 +292,7 @@ body {
   padding-top: 1rem;
 }
 
-/* Animations & Responsive */
+/* === Animations & Responsive === */
 @keyframes slideDown {
   from { transform: translateY(-30px); opacity: 0; }
   to   { transform: translateY(0); opacity: 1; }
