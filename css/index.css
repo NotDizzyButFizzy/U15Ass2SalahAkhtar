@@ -56,18 +56,19 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.site-logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #fff;
+.logo-img {
+  height: 50px;
+  width: auto;
+  max-width: 100%;
+  vertical-align: middle;
 }
 .logo-img {
-  height: 50px; /* Adjust as needed */
-  width: auto;
+  height: 40px;
 }
-.logo-img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+.header-container {
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 /* Navigtion */
