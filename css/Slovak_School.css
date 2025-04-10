@@ -18,7 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(0,0,0,0.85);
+  background: rgba(0,0,0,0.7);
   backdrop-filter: blur(10px);
   z-index: 999;
   animation: slideDown 0.7s ease-in-out;
@@ -31,12 +31,30 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem;
 }
+/* === Logo Styling === */
 .site-logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  max-height: 50px;
+  overflow: hidden;
 }
+.logo-img {
+  height: 90px;
+  max-width: 190px;
+  width: auto;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .logo-img {
+    height: 40px;
+    max-width: 100px;
+  }
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
