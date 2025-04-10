@@ -37,19 +37,19 @@ body {
 .site-logo {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* align it to the left */
+  justify-content: flex-start; 
   margin-right: 1rem;
 }
 .logo-img {
-  height: 60px;
-  max-width: 180px;
+  height: 90px;
+  max-width: 190px;
   width: auto;
   object-fit: contain;
 }
 @media (max-width: 768px) {
   .logo-img {
     height: 40px;
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 .nav {
