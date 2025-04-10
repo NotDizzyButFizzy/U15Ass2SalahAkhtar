@@ -61,6 +61,14 @@ body {
   font-weight: bold;
   color: #fff;
 }
+.logo-img {
+  height: 50px; /* Adjust as needed */
+  width: auto;
+}
+.logo-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 
 /* Navigtion */
 .nav {
