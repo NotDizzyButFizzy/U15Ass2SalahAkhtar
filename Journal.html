@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Journal</title>
+  <link rel="stylesheet" href="css/Journal.css" />
+</head>
+<body>
+
+  <!-- 🔝 Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="site-logo">Thy Logo</div>
+      <nav class="nav" id="main-nav">
+        <a href="Home.html">Home</a>
+        <a href="About_Us.html">About Us</a>
+        <a href="Slovak_School.html">Slovak School</a>
+        <a href="Events_&_Projects.html">Events & Projects</a>
+        <a href="Library.html">Library</a>
+        <a href="Journal.html" class="active">Journal</a>
+        <a href="Donate.html">Donate</a>
+      </nav>
+      <div class="nav-right">
+        <div class="auth-buttons">
+          <button id="login-btn">Login</button>
+          <button id="signup-btn">Sign Up</button>
+        </div>
+        <div class="burger" id="burger">
+          <div></div><div></div><div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 📰 Hero -->
+  <section class="hero about-hero">
+    <div class="hero-text">
+      <h1>Journal</h1>
+      <p>Stay Connected | Learn More | Celebrate Community</p>
+    </div>
+  </section>
+
+  <!-- 📝 Journal Content -->
+  <main>
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-book-open"></i> Welcome to Our Journal</h2>
+        <p>
+          Welcome to the Journal of Slovenské Vzdelávacie Centrum – South Manchester.
+          Here, we share valuable educational materials, updates from our school and community,
+          and inspiring stories that reflect our mission to preserve and celebrate Slovak language and culture abroad.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-book"></i> SVCSM Work Book – „Pracovný zošit“</h2>
+        <p>A seasonal learning resource designed by our educators to support learners of all ages in their Slovak language journey.</p>
+        <h3>📘 What's Inside:</h3>
+        <ul>
+          <li>Grammar & Vocabulary Exercises – Age-appropriate, structured activities that align with our curriculum</li>
+          <li>Cultural Activities – Tasks exploring Slovak holidays, traditions, and history</li>
+          <li>Creative Writing & Reading – Fun exercises that apply Slovak in real-life situations</li>
+          <li>Games & Fun Sheets – Keeping learning playful and interactive</li>
+        </ul>
+
+        <h3>How to Access:</h3>
+        <ul>
+          <li>🖥️ <strong>Free Online Version</strong> – Available to all our students and members</li>
+          <li>🖨️ <strong>Downloadable PDF</strong> – A printable version is available for purchase (<em>link coming soon</em>)</li>
+        </ul>
+        <p>This workbook is perfect for classroom practice, home learning, or preparation for ‘komisionálne skúšky’.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-newspaper"></i> SVCSM Newsletter</h2>
+        <p>Our newsletter keeps you in the loop with everything happening at the centre!</p>
+
+        <h3>In Each Issue:</h3>
+        <ul>
+          <li>📅 Upcoming events, workshops, and programs</li>
+          <li>🏆 Community news, achievements, and student highlights</li>
+          <li>📚 Educational tips, resources, and Slovak learning inspiration</li>
+          <li>🤝 New projects, collaborations, and partnership updates</li>
+        </ul>
+
+        <h3>Want to Subscribe?</h3>
+        <p>
+          📧 Sign up <a href="#" class="highlight-link">here</a> (form coming soon) <br/>
+          Or contact us directly at <a href="mailto:svcmanchester@yahoo.com" class="highlight-link">svcmanchester@yahoo.com</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-content">
+        <h2><i class="fas fa-pen-nib"></i> Want to Contribute?</h2>
+        <p>
+          Do you have a story, article, or learning resource to share?
+        </p>
+        <p>
+          We welcome contributions from students, parents, volunteers, and community members. Whether it's a reflection on your bilingual journey, a creative piece, or an educational idea—we’d love to include your voice in our Journal!
+        </p>
+        <p>
+          👉 <a href="#" class="highlight-link">Contact us here</a> to share your ideas or submit content.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🔐 Modals -->
+  <div class="modal" id="login-modal">
+    <div class="modal-box">
+      <span class="close" data-close="login-modal">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+        <p>Or login with:</p>
+        <button class="fb">Facebook</button>
+        <button class="google">Google</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="signup-modal">
+    <div class="modal-box">
+      <span class="close" data-close="signup-modal">&times;</span>
+      <h2>Sign Up</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Confirm Password" required />
+        <button type="submit">Sign Up</button>
+        <p>Or sign up with:</p>
+        <button class="fb">Facebook</button>
+        <button class="google">Google</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 📦 Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-box">
+        <h3><i class="fas fa-info-circle"></i> About Us</h3>
+        <p>"Together we change lives – every act of kindness counts."</p>
+        <p><i class="fas fa-envelope"></i> help@svcs.uk</p>
+        <p><i class="fas fa-phone-alt"></i> +421 XXX XXX XXX</p>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Street, City, Slovakia</p>
+      </div>
+
+      <div class="footer-box">
+        <h3><i class="fas fa-hands-helping"></i> Support Us</h3>
+        <p><strong>BARCLAYS</strong></p>
+        <p>Sort Code: 30-94-66</p>
+        <p>Account No: 019152668</p>
+        <p>SVCSM – South Manchester</p>
+        <a href="#support">Donate</a> | <a href="#support">Volunteer</a>
+      </div>
+
+      <div class="footer-box">
+        <h3><i class="fas fa-link"></i> Useful Links</h3>
+        <ul>
+          <li><a href="#library">Library</a></li>
+          <li><a href="#journal">Newsletter</a></li>
+          <li><a href="#events">Events</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h3><i class="fas fa-share-alt"></i> Stay Connected</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>Subscribe: <a href="#">Sign Up</a></p>
+      </div>
+    </div>
+
+    <div class="footer-partners">
+      <h3><i class="fas fa-ribbon"></i> Our Partners</h3>
+      <div class="partner-logos">
+        <img src="img/logo-umb.png" alt="UMB" />
+        <img src="img/logo-morrisons.png" alt="Morrisons" />
+        <img src="img/logo-cafe.png" alt="Porta134 Café" />
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Slovenské Vzdelávacie Centrum – South Manchester</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="scripts/Journal.js" defer></script>
+</body>
+</html>
